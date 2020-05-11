@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Placemark><name>Home</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2888888,34.03</coordinates></Point>
+</Placemark>
+<Placemark><name>Ralphs</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2908856,34.0321840</coordinates></Point>
+</Placemark>
+<Placemark><name>Engemann</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2887740,34.0250604</coordinates></Point>
+</Placemark>
+<Placemark><name>SAL</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2895881,34.0193110</coordinates></Point>
+</Placemark>
+<Placemark><name>SGM</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2891968,34.0211031</coordinates></Point>
+</Placemark>
+<Placemark><name>Fertitta Hall</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2821808,34.0188389</coordinates></Point>
+</Placemark>
+<Placemark><name>Taco Bell</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2914331,34.0220260</coordinates></Point>
+</Placemark>
+<Placemark><name>Hecuba</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2848322,34.0250543</coordinates></Point>
+</Placemark>
+<Placemark><name>Tommy Trojan</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2853864,34.0205334</coordinates></Point>
+</Placemark>
+<Placemark><name>Hoose library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2864794,34.0186171</coordinates></Point>
+</Placemark>
+<Placemark><name>Thornton</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2853220,34.0230914</coordinates></Point>
+</Placemark>
+<Placemark><name>Leavey</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2830609,34.0215886</coordinates></Point>
+</Placemark>
+<Placemark> 
+ <Polygon> <outerBoundaryIs>  <LinearRing>
+  <coordinates>
+   -118.2864794,34.0186171,0
+   -118.2895881,34.019311,0
+   -118.2914331,34.022026,0
+   -118.2908856,34.032184,0
+   -118.2888888,34.03,0
+   -118.2848322,34.0250543,0
+   -118.2830609,34.0215886,0
+   -118.2821808,34.0188389,0
+   -118.2864794,34.0186171,0
+  </coordinates>
+ </LinearRing> </outerBoundaryIs> </Polygon>
+ <Style> 
+  <PolyStyle>  
+   <color>#640000ff</color>
+  <outline>0</outline>
+  </PolyStyle> 
+ </Style>
+</Placemark>
+<Placemark> 
+ <LineString>
+  <coordinates>
+   -118.2888888,34.03,0 
+   -118.2908856,34.0321840,0
+  </coordinates>
+ </LineString>
+ <Style> 
+  <LineStyle>  
+   <color>#ffff0000</color>
+   <width>5</width>
+  </LineStyle> 
+ </Style>
+</Placemark>
+<Placemark> 
+ <LineString>
+  <coordinates>
+   -118.2888888,34.03,0 
+   -118.2887740,34.0250604,0
+  </coordinates>
+ </LineString>
+ <Style> 
+  <LineStyle>  
+   <color>#ffff0000</color>
+   <width>5</width>
+  </LineStyle> 
+ </Style>
+</Placemark>
+<Placemark> 
+ <LineString>
+  <coordinates>
+   -118.2888888,34.03,0 
+   -118.2853220,34.0230914,0
+  </coordinates>
+ </LineString>
+ <Style> 
+  <LineStyle>  
+   <color>#ffff0000</color>
+   <width>5</width>
+  </LineStyle> 
+ </Style>
+</Placemark>
+<Placemark>
+ <LineString>
+  <coordinates>
+   -118.2888888,34.03,0 
+   -118.2848322,34.0250543,0
+  </coordinates>
+ </LineString>
+ <Style> 
+  <LineStyle>  
+   <color>#ffff0000</color>
+   <width>5</width>
+  </LineStyle> 
+ </Style>
+</Placemark>
+</Document></kml>
+

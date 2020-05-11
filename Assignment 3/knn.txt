@@ -1,0 +1,51 @@
+--Table creation commands
+CREATE TABLE geonames
+(
+  id     VARCHAR(50) PRIMARY KEY,
+  points geometry
+);
+Insert into geonames (id, points)
+VALUES ('Home',
+        ST_GeomFromText('POINT(-118.2888888 34.03)', 4326));
+Insert into geonames (id, points)
+VALUES ('Ralphs',
+        ST_GeomFromText('POINT(-118.2908856 34.0321840)', 4326));
+Insert into geonames (id, points)
+VALUES ('Engemann',
+       ST_GeomFromText('POINT(-118.2887740 34.0250604)', 4326));
+Insert into geonames (id, points)
+VALUES ('SAL',
+        ST_GeomFromText('POINT(-118.2895881 34.0193110)', 4326));
+Insert into geonames (id, points)
+VALUES ('SGM',
+        ST_GeomFromText('POINT(-118.2891968 34.0211031)', 4326));
+Insert into geonames (id, points)
+VALUES ('Fertitta Hall',
+        ST_GeomFromText('POINT(-118.2821808 34.0188389)', 4326));
+Insert into geonames (id, points)
+VALUES ('Taco Bell',
+        ST_GeomFromText('POINT(-118.2914331 34.0220260)', 4326));
+Insert into geonames (id, points)
+VALUES ('Hecuba',
+        ST_GeomFromText('POINT(-118.2848322 34.0250543)', 4326));
+Insert into geonames (id, points)
+VALUES ('Tommy Trojan',
+        ST_GeomFromText('POINT(-118.2853864 34.0205334)', 4326));
+Insert into geonames (id, points)
+VALUES ('Hoose library',
+        ST_GeomFromText('POINT(-118.2864794 34.0186171)', 4326));
+Insert into geonames (id, points)
+VALUES ('Thornton',
+        ST_GeomFromText('POINT(-118.2853220 34.0230914)', 4326));
+Insert into geonames (id, points)
+VALUES ('Leavey Library',
+        ST_GeomFromText('POINT(-118.2830609 34.0215886)', 4326));
+
+SELECT * from geonames
+
+-- kNN by passing the home coordinate as the centre point. Limit is set to 5 because home itself is included in the database.
+
+SELECT id, st_astext(points)
+FROM geonames
+ORDER BY points <-> st_setsrid(st_makepoint(-118.2888888,34.03), 4326)
+LIMIT 5;
