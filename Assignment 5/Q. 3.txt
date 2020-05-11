@@ -1,0 +1,17 @@
+Q. 2: 
+
+The top 3 companies with the highest average profit are:
+1. Citigroup
+2. Bank of America Corp.
+3. Microsoft
+
+The top 3 companies with the highest sum profit are:
+1. Exxon Mobile
+2. General Electric
+3. IBM
+
+Q. 3:
+
+The list does not contain the same companies every year and changes depending on whether it made it to the Forbes' 500 list. The 'sum' chart sums the profit of each company regardless of how many times it appeared in the list between 1955-2005. It simply adds the profit of every occurrence for each company. 
+
+The 'avg' chart does not divide the total profit by the no. of years(1955-2005), instead, since it only summed for every occurrence of each company, it divides total profit for each company by the number of times that company made it to the Forbes' 500 list in the years 1955-2005. If the company made it every year in the list then the sum is divided by 51 years. 
